@@ -11,7 +11,8 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/company/inspiyouth/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; InspiYouth</li>
+                <li>Made with <i className="icon fa fa-heart pulse"></i> by <a href="https://github.com/nephertz" target="_blank">nephertz</a></li>
+                <li>&copy; 2020 InspiYouth</li>
                 <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
