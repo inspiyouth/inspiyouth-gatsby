@@ -5,8 +5,6 @@ import Layout from '../components/layout'
 import BannerMember from '../components/BannerMember'
 
 import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 
 const Member = (props) => (
     <Layout>
@@ -18,7 +16,7 @@ const Member = (props) => (
         <BannerMember />
 
         <div id="main">
-            <section id="one" className="spotlights">
+            <section id="one" className="members">
                 <section>
                     <Link to="/generic" className="image">
                         <img src={pic08} alt="" />
@@ -27,6 +25,7 @@ const Member = (props) => (
                         <div className="inner">
                             <header className="major">
                                 <h2>Orci maecenas</h2>
+                                <h3>Lorem ipsum</h3>
                             </header>
                             <p>
                                 Nullam et orci eu lorem consequat tincidunt
@@ -37,86 +36,46 @@ const Member = (props) => (
                                 eu lorem consequat tincidunt. Vivamus et
                                 sagittis tempus.
                             </p>
-                            <div className="inner">
-                                <ul className="icons">
-                                    <li>
-                                        <a
-                                            href="https://www.facebook.com/inspiyouth.id/"
-                                            className="icon alt fa-facebook"
-                                        >
-                                            <span className="label">
-                                                Facebook
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.instagram.com/inspiyouth.id/"
-                                            className="icon alt fa-instagram"
-                                        >
-                                            <span className="label">
-                                                Instagram
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.youtube.com/channel/UCH8EQBAe2uA5ObgA3_lCcsg"
-                                            className="icon alt fa-youtube-play"
-                                        >
-                                            <span className="label">
-                                                Youtube
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.github.com/inspiyouth/"
-                                            className="icon alt fa-github"
-                                        >
-                                            <span className="label">
-                                                GitHub
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.linkedin.com/company/inspiyouth/"
-                                            className="icon alt fa-linkedin"
-                                        >
-                                            <span className="label">
-                                                LinkedIn
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Rhoncus magna</h3>
-                            </header>
-                            <p>
-                                Nullam et orci eu lorem consequat tincidunt
-                                vivamus et sagittis magna sed nunc rhoncus
-                                condimentum sem. In efficitur ligula tate urna.
-                                Maecenas massa sed magna lacinia magna
-                                pellentesque lorem ipsum dolor. Nullam et orci
-                                eu lorem consequat tincidunt. Vivamus et
-                                sagittis tempus.
-                            </p>
-                            <ul className="actions">
+                            <ul className="icons">
                                 <li>
-                                    <Link to="/generic" className="button">
-                                        Learn more
-                                    </Link>
+                                    <a
+                                        href="https://www.facebook.com/inspiyouth.id/"
+                                        className="icon alt fa-facebook"
+                                    >
+                                        <span className="label">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.instagram.com/inspiyouth.id/"
+                                        className="icon alt fa-instagram"
+                                    >
+                                        <span className="label">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.youtube.com/channel/UCH8EQBAe2uA5ObgA3_lCcsg"
+                                        className="icon alt fa-youtube-play"
+                                    >
+                                        <span className="label">Youtube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.github.com/inspiyouth/"
+                                        className="icon alt fa-github"
+                                    >
+                                        <span className="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/company/inspiyouth/"
+                                        className="icon alt fa-linkedin"
+                                    >
+                                        <span className="label">LinkedIn</span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -124,12 +83,13 @@ const Member = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={pic08} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h2>Orci maecenas</h2>
+                                <h3>Lorem ipsum</h3>
                             </header>
                             <p>
                                 Nullam et orci eu lorem consequat tincidunt
@@ -140,11 +100,176 @@ const Member = (props) => (
                                 eu lorem consequat tincidunt. Vivamus et
                                 sagittis tempus.
                             </p>
-                            <ul className="actions">
+                            <ul className="icons">
                                 <li>
-                                    <Link to="/generic" className="button">
-                                        Learn more
-                                    </Link>
+                                    <a
+                                        href="https://www.facebook.com/inspiyouth.id/"
+                                        className="icon alt fa-facebook"
+                                    >
+                                        <span className="label">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.instagram.com/inspiyouth.id/"
+                                        className="icon alt fa-instagram"
+                                    >
+                                        <span className="label">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.youtube.com/channel/UCH8EQBAe2uA5ObgA3_lCcsg"
+                                        className="icon alt fa-youtube-play"
+                                    >
+                                        <span className="label">Youtube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.github.com/inspiyouth/"
+                                        className="icon alt fa-github"
+                                    >
+                                        <span className="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/company/inspiyouth/"
+                                        className="icon alt fa-linkedin"
+                                    >
+                                        <span className="label">LinkedIn</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={pic08} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Orci maecenas</h2>
+                                <h3>Lorem ipsum</h3>
+                            </header>
+                            <p>
+                                Nullam et orci eu lorem consequat tincidunt
+                                vivamus et sagittis magna sed nunc rhoncus
+                                condimentum sem. In efficitur ligula tate urna.
+                                Maecenas massa sed magna lacinia magna
+                                pellentesque lorem ipsum dolor. Nullam et orci
+                                eu lorem consequat tincidunt. Vivamus et
+                                sagittis tempus.
+                            </p>
+
+                            <ul className="icons">
+                                <li>
+                                    <a
+                                        href="https://www.facebook.com/inspiyouth.id/"
+                                        className="icon alt fa-facebook"
+                                    >
+                                        <span className="label">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.instagram.com/inspiyouth.id/"
+                                        className="icon alt fa-instagram"
+                                    >
+                                        <span className="label">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.youtube.com/channel/UCH8EQBAe2uA5ObgA3_lCcsg"
+                                        className="icon alt fa-youtube-play"
+                                    >
+                                        <span className="label">Youtube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.github.com/inspiyouth/"
+                                        className="icon alt fa-github"
+                                    >
+                                        <span className="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/company/inspiyouth/"
+                                        className="icon alt fa-linkedin"
+                                    >
+                                        <span className="label">LinkedIn</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={pic08} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Orci maecenas</h2>
+                                <h3>Lorem ipsum</h3>
+                            </header>
+                            <p>
+                                Nullam et orci eu lorem consequat tincidunt
+                                vivamus et sagittis magna sed nunc rhoncus
+                                condimentum sem. In efficitur ligula tate urna.
+                                Maecenas massa sed magna lacinia magna
+                                pellentesque lorem ipsum dolor. Nullam et orci
+                                eu lorem consequat tincidunt. Vivamus et
+                                sagittis tempus.
+                            </p>
+
+                            <ul className="icons">
+                                <li>
+                                    <a
+                                        href="https://www.facebook.com/inspiyouth.id/"
+                                        className="icon alt fa-facebook"
+                                    >
+                                        <span className="label">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.instagram.com/inspiyouth.id/"
+                                        className="icon alt fa-instagram"
+                                    >
+                                        <span className="label">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.youtube.com/channel/UCH8EQBAe2uA5ObgA3_lCcsg"
+                                        className="icon alt fa-youtube-play"
+                                    >
+                                        <span className="label">Youtube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.github.com/inspiyouth/"
+                                        className="icon alt fa-github"
+                                    >
+                                        <span className="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/company/inspiyouth/"
+                                        className="icon alt fa-linkedin"
+                                    >
+                                        <span className="label">LinkedIn</span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
