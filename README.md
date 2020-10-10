@@ -1,4 +1,6 @@
 # inspiyouth-web
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d78eb1a5-f3ca-4bdb-9542-34d6a2eb599f/deploy-status)](https://app.netlify.com/sites/inspiyouth-website/deploys)
+
 Source code for InspiYouth Web
 
 ## External License
