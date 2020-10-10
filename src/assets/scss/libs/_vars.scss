@@ -26,23 +26,28 @@
 		weight:				400,
 		weight-bold:		700,
 		letter-spacing:		0.025em,
-		letter-spacing-alt:	0.25em
+		letter-spacing-alt:	0.1em
 	);
 
 // Palette.
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
+		bg:					#15153a,
+		bg-alt:				#202057,
 		fg:					#ffffff,
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.2),
 		border:				rgba(212,212,255,0.1),
 		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#9bf1ff,
+		highlight:			#ff9d00,
+		// St Patricks Blue
 		accent1:			#2a2a72,
+		// Bright Yello Crayola
 		accent2:			#ffa91f,
+		// Flame
 		accent3:			#e04e29,
+		// Cotton Candy
 		accent4:			#fab3d6,
+		//Illuminating Emerald
 		accent5:			#53917e,
 		accent6:			#87c5a4
 	);

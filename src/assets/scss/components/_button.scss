@@ -24,7 +24,7 @@
 		color: _palette(fg-bold);
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.9em;
 		font-weight: _font(weight-bold);
 		height: 3.5em;
 		letter-spacing: _font(letter-spacing-alt);
@@ -78,7 +78,7 @@
 				background-repeat: no-repeat;
 				background-size: 36px 24px;
 				content: '';
-				display: block;
+				display: flex;
 				height: 100%;
 				position: absolute;
 				right: 1.5em;
