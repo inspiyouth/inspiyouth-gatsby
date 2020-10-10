@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="InspiYouth | Official Website"
+                    title="Home | InspiYouth"
                     meta={[
                         { name: 'description', content: 'InspiYouth merupakan komunitas kepemudaan yang bergerak di bidang pengembangan diri, edukasi, dan sosial.' },
                         { name: 'keywords', content: 'inspirasi, pemuda, beasiswa, scholarship, sukses' },
