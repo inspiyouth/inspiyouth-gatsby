@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/images/website-icon.png'
 
 const Banner = (props) => (
     <section id="banner" className="major">
@@ -7,10 +8,17 @@ const Banner = (props) => (
                 <h1>InspiYouth</h1>
             </header>
             <div className="content">
-                <p>InspiYouth merupakan komunitas kepemudaan<br />
-                yang bergerak di bidang pengembangan diri, edukasi, dan sosial.</p>
+                <p>
+                    InspiYouth merupakan komunitas kepemudaan <br />
+                    yang bergerak di bidang pengembangan diri, edukasi, dan
+                    sosial.
+                </p>
                 <ul className="actions">
-                    <li><a href="#program" className="button next scrolly">Ketahui Lebih Lanjut</a></li>
+                    <li>
+                        <a href="#program" className="button next scrolly">
+                            Ketahui Lebih Lanjut
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

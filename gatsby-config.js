@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "InspiYouth",
+    author: "M. Hanif Azhary",
+    description: "Official website of InspiYouth"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'InspiYouth Official Website',
+        short_name: 'InspiYouth',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#2a2a72',
+        theme_color: '#2a2a72',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
