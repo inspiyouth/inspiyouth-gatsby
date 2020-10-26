@@ -15,11 +15,23 @@ const Contact = (props) => (
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <textarea
+                            name="message"
+                            id="message"
+                            rows="6"
+                        ></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
+                        <li>
+                            <input
+                                type="submit"
+                                value="Send Message"
+                                className="special"
+                            />
+                        </li>
+                        <li>
+                            <input type="reset" value="Clear" />
+                        </li>
                     </ul>
                 </form>
             </section>
@@ -28,23 +40,31 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="mailto:halo@inspiyouth.id">halo@inspiyouth.id</a>
+                        <a href="mailto:halo@inspiyouth.id">
+                            halo@inspiyouth.id
+                        </a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>(0341) 000-0000 x12387</span>
+                        <span className="icon alt fa-whatsapp"></span>
+                        <h3>Telepon & WhatsApp</h3>
+                        <a href="https://api.whatsapp.com/send?phone=+6285879419317">+62 858-7941-9317</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Semarang 00000<br />
-                        Indonesia</span>
+                        <h3>Alamat</h3>
+                        <span>
+                            Raden Kosasih No. 146 RT 04/01
+                            <br />
+                            Kel. Gunung Batu, Kec. Bogor Barat
+                            <br />
+                            Kota Bogor 16118
+                            <br />
+                            Indonesia
+                        </span>
                     </div>
                 </section>
             </section>

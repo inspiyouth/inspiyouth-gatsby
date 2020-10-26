@@ -9,74 +9,105 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
+import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
-
         return (
             <Layout>
                 <Helmet
                     title="Home | InspiYouth"
                     meta={[
-                        { name: 'description', content: 'InspiYouth merupakan komunitas kepemudaan yang bergerak di bidang pengembangan diri, edukasi, dan sosial.' },
-                        { name: 'keywords', content: 'inspirasi, pemuda, beasiswa, scholarship, sukses' },
+                        {
+                            name: 'description',
+                            content:
+                                'InspiYouth merupakan komunitas kepemudaan yang bergerak di bidang pengembangan diri, edukasi, dan sosial.',
+                        },
+                        {
+                            name: 'keywords',
+                            content:
+                                'inspirasi, pemuda, beasiswa, scholarship, sukses',
+                        },
                     ]}
-                >
-                </Helmet>
+                ></Helmet>
 
                 <Banner />
 
                 <div id="main">
                     <section id="program" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{ backgroundImage: `url(${pic01})` }}>
                             <header className="major">
                                 <h3>InsFire</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>
+                                    InsFire merupakan informasi edukatif berupa
+                                    infografis yang menarik mengenai{' '}
+                                    <i>youth development</i> dan{' '}
+                                    <i>self development</i>.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{ backgroundImage: `url(${pic02})` }}>
                             <header className="major">
                                 <h3>InSight</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>
+                                    InSight merupakan kegiatan webinar
+                                    inspiratif yang mendatangkan para{' '}
+                                    <i>speakers</i> berpengalaman dalam berbagai
+                                    wawasan.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{ backgroundImage: `url(${pic03})` }}>
                             <header className="major">
                                 <h3>InsCoach</h3>
-                                <p>Lorem etiam nullam</p>
+                                <p>
+                                    InsCoach merupakan kegiatan <i>mentoring</i>{' '}
+                                    oleh <i>expert</i> dalam menunjang
+                                    pengembangan diri.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{ backgroundImage: `url(${pic04})` }}>
                             <header className="major">
                                 <h3>InScholarship</h3>
-                                <p>Nisl sed aliquam</p>
+                                <p>
+                                    InScholarship merupakan informasi seputar
+                                    beasiswa ter-<i>update</i>.
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{ backgroundImage: `url(${pic05})` }}>
                             <header className="major">
                                 <h3>InShare</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>
+                                    InShare merupakan kegiatan sosial masyarakat
+                                    (<i>Social Impact, Bootcamp,</i> dan{' '}
+                                    <i>Outbond</i>).
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
+                        <article>
+                            <header className="">
+                                <h3>Siapa sih InspiYouth?</h3>
+                                <ul className="actions">
+                                    <li>
+                                        <Link
+                                            to="/landing"
+                                            className="button next"
+                                        >
+                                            Tentang Kami
+                                        </Link>
+                                    </li>
+                                </ul>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
+                        </article>
                     </section>
                 </div>
-
             </Layout>
         )
     }

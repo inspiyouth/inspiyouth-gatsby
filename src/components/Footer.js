@@ -7,7 +7,7 @@ const Footer = (props) => (
                 <li><a href="https://www.facebook.com/inspiyouth.id/" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
                 <li><a href="https://www.instagram.com/inspiyouth.id/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
                 <li><a href="https://www.youtube.com/channel/UCH8EQBAe2uA5ObgA3_lCcsg" className="icon alt fa-youtube-play"><span className="label">Youtube</span></a></li>
-                <li><a href="https://www.github.com/inspiyouth/" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=+6285879419317" className="icon alt fa-whatsapp"><span className="label">WhatsApp</span></a></li>
                 <li><a href="https://www.linkedin.com/company/inspiyouth/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
