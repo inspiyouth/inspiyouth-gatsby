@@ -9,7 +9,6 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -45,7 +44,6 @@ class HomeIndex extends React.Component {
                                     <i>self development</i>.
                                 </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{ backgroundImage: `url(${pic02})` }}>
                             <header className="major">
@@ -57,7 +55,6 @@ class HomeIndex extends React.Component {
                                     wawasan.
                                 </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{ backgroundImage: `url(${pic03})` }}>
                             <header className="major">
@@ -68,7 +65,6 @@ class HomeIndex extends React.Component {
                                     pengembangan diri.
                                 </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{ backgroundImage: `url(${pic04})` }}>
                             <header className="major">
@@ -78,7 +74,6 @@ class HomeIndex extends React.Component {
                                     beasiswa ter-<i>update</i>.
                                 </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{ backgroundImage: `url(${pic05})` }}>
                             <header className="major">
@@ -89,7 +84,6 @@ class HomeIndex extends React.Component {
                                     <i>Outbond</i>).
                                 </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article>
                             <header className="">
